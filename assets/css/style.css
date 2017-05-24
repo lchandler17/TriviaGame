@@ -1,0 +1,20 @@
+body {
+	background-image: url('../../assets/images/asanoha.png');
+	text-align: center;
+	/*font-family: 'Galdeano', sans-serif;*/
+	/*font-family: 'Mirza', cursive;*/
+}
+
+.panel {
+	margin-top: 50px;
+}
+
+h1 {
+	font-family: 'Chela One', cursive;
+	font-size: 46px;
+}
+
+.answer:hover {
+	color: purple;
+	font-weight: bold;
+}

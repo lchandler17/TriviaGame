@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Japan Trivia Game</title>
+
+<link rel="stylesheet" href="assets/css/reset.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chela+One|Mirza">
+<script src="https://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</head>
+<body>
+
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<div class="panel panel-default main">
+			<div class="panel-heading"><h1>Japan Trivia Game</h1></div>
+			<div class="panel-body">
+
+			<div id="startPage">
+				<button id="ready" type="button" class="btn btn-default btn-md">Ready?</button>
+			</div>
+
+			<div id="triviaPage">
+				<h2 id="timer"></h2>
+				<h2 id="question"></h2>
+				<p class="answer" data-index="0" id="a1"></p>
+				<p class="answer" data-index="1" id="a2"></p>
+				<p class="answer" data-index="2" id="a3"></p>
+				<p class="answer" data-index="3" id="a4"></p>
+			</div>
+
+			<div id="answerPage">
+				<h2 id="rightWrong"></h2>
+				<br />
+				<button id="next" type="button" class="btn btn-default btn-md">Next</button>
+			</div>
+
+			<div id="scorePage">
+				<h2>Quiz Completed!</h2>
+				<h2>Score: <span id="score"></span></h2>
+				<button id="again" type="button" class="btn btn-default btn-md">Try Again?</button>
+			</div>
+
+			</div> <!--panel body-->
+		</div> <!--panel main-->
+	</div> <!--col-md-10-->
+	<div class="col-md-1"></div>
+</div> <!--row-->
+
+
+</body>
+</html>
