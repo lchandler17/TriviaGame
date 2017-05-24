@@ -48,7 +48,6 @@ function startScreen() {
 }
 
 function nextQuestion() {
-	// for (var i = 0, i < 4, i++) {
 		$("#timer").html("20");
 		$("#question").html(questionArray[qNum].question);
 		$("#a1").html(questionArray[qNum].answers[0]);
@@ -56,7 +55,6 @@ function nextQuestion() {
 		$("#a3").html(questionArray[qNum].answers[2]);
 		$("#a4").html(questionArray[qNum].answers[3]);
 		startTimer();
-	// }
 }
 
 
