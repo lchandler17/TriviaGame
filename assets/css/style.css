@@ -1,12 +1,6 @@
 body {
 	background-image: url('../../assets/images/asanoha.png');
 	text-align: center;
-	/*font-family: 'Galdeano', sans-serif;*/
-	/*font-family: 'Mirza', cursive;*/
-}
-
-.panel {
-	margin-top: 50px;
 }
 
 h1 {
@@ -14,7 +8,58 @@ h1 {
 	font-size: 46px;
 }
 
+h2 {
+	font-size: 32px;
+	font-family: 'Nunito', sans-serif;
+	margin: 20px;
+}
+
+p {
+	font-size: 26px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.panel {
+	margin-top: 50px;
+	height: 700px;
+}
+
+.panel > .panel-heading {
+	background-image: none;
+	background-color: #8D0000;
+	color: #FFFFF7;
+}
+
 .answer:hover {
-	color: purple;
+	color: #8D0000;
 	font-weight: bold;
+}
+
+.btn {
+	/*background-image: none;*/
+	background-color: #8D0000;
+	color: #FFFFF7;
+	margin: 20px;
+	font-family: 'Chela One', cursive;
+	font-size: 24px;
+}
+
+.btn:hover {
+	background-color: #FFFFF7;
+	color: #8D0000;
+}
+
+#ready {
+	height: 80px;
+	width: 200px;
+	font-size: 35px;
+	font-family: 'Chela One', cursive;
+}
+
+#image > img {
+	height: 300px;
+	margin: 20px;
+	border-style: solid;
+	border-color: #CBCBCB;
+	border-width: 1px;
 }

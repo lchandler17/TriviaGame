@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="assets/css/reset.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chela+One|Mirza">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chela+One|Nunito">
 <script src="https://code.jquery.com/jquery.js"></script>
 <script type="text/javascript" src="assets/javascript/app.js"></script>
 
@@ -16,14 +16,15 @@
 <body>
 
 <div class="row">
-	<div class="col-md-1"></div>
-	<div class="col-md-10">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
 		<div class="panel panel-default main">
 			<div class="panel-heading"><h1>Japan Trivia Game</h1></div>
 			<div class="panel-body">
 
 			<div id="startPage">
-				<button id="ready" type="button" class="btn btn-default btn-md">Ready?</button>
+				<br /><br /><br /><br />
+				<button id="ready" type="button" class="btn btn-default btn-lg">Ready?</button>
 			</div>
 
 			<div id="triviaPage">
@@ -37,20 +38,23 @@
 
 			<div id="answerPage">
 				<h2 id="rightWrong"></h2>
+				<button id="next" type="button" class="btn btn-default btn-lg">Next</button>
 				<br />
-				<button id="next" type="button" class="btn btn-default btn-md">Next</button>
+				<span id="image"></span>
 			</div>
 
 			<div id="scorePage">
+				<br />
 				<h2>Quiz Completed!</h2>
 				<h2>Score: <span id="score"></span></h2>
-				<button id="again" type="button" class="btn btn-default btn-md">Try Again?</button>
+				<br />
+				<button id="again" type="button" class="btn btn-default btn-lg">Try Again?</button>
 			</div>
 
 			</div> <!--panel body-->
 		</div> <!--panel main-->
-	</div> <!--col-md-10-->
-	<div class="col-md-1"></div>
+	</div> <!--col-md-8-->
+	<div class="col-md-2"></div>
 </div> <!--row-->
 
 
