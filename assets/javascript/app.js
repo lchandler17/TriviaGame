@@ -85,7 +85,7 @@ var questionArray = [{
 },
 {
 	question: "The Japanese use a statue of which animal to bless a house with fertility?",
-	answers: ["Fox", "Owl", "Racoon", "Crane"],
+	answers: ["Fox", "Owl", "Raccoon", "Crane"],
 	correct: 2,
 	image: '<img src="assets/images/tanuki.jpg" alt="Tanuki">',
 },
